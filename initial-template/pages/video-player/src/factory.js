@@ -41,7 +41,7 @@ async function getWorker() {
   await service.loadModel();
   console.log("tf model loaded!");
 
-  setTimeout(() => worker.onmessage({ data: "READY" }), 500);
+  setTimeout(() => worker.onmessage({ data: "READY" }), 1000);
   return workerMock;
 }
 
