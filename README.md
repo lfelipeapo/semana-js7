@@ -1,8 +1,6 @@
 # JSExpertMax Gesture Controller - Semana JS Expert 7.0
 
-Seja bem vindo(a) à sétima Semana Javascript Expert. Este é o código inicial para iniciar nossa jornada.
-
-Marque esse projeto com uma estrela 🌟
+Participação à sétima Semana Javascript Expert. Este é o meu código para a jornada.
 
 ## Preview
 <img width=100% src="./initial-template/assets/demo-template-lg.gif">
@@ -34,11 +32,6 @@ Marque esse projeto com uma estrela 🌟
 - [] - Aula 02 - Reconhecer gestos de mãos individuais e printar no log
 - [] - Aula 03 - A definir
 - [] - Aula 04 - A definir
-
-### Considerações
-- Tire suas dúvidas sobre os desafios em nossa comunidade, o objetivo é você aprender de forma divertida. Surgiu dúvidas? Pergunte por lá!
-
-- Ao completar qualquer um dos desafios, envie no canal **#desafios** da comunidade no **Discord**
 
 ### Créditos ao Layout
 - Interface baseada no projeto [Streaming Service](https://codepen.io/Gunnarhawk/pen/vYJEwoM) de [gunnarhawk](https://github.com/Gunnarhawk)
