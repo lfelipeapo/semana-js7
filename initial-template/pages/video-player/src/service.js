@@ -58,7 +58,7 @@ export default class Service {
       const upperLeft = prediction.annotations.leftEyeLower0;
       const leftEAR = this.#getEAR(upperLeft, lowerLeft);
 
-      this.#checkClosedEye(leftEAR, rightEAR, EAR_THRESHOLD);
+      this.#verifyClosedEye(leftEAR, rightEAR, EAR_THRESHOLD);
 
       // True if the eye is closed
       const blinked = leftEAR <= EAR_THRESHOLD && rightEAR <= EAR_THRESHOLD;
@@ -70,7 +70,7 @@ export default class Service {
     return false;
   }
 
-  #checkClosedEye(left, right, earThreshold) {
+  #verifyClosedEye(left, right, earThreshold) {
     return (
       (left <= earThreshold ? console.log("left eye blinked") : null) ||
       (right <= earThreshold ? console.log("right eye blinked") : null)
