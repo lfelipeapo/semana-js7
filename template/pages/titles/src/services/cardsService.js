@@ -16,7 +16,6 @@ export default class CardService {
       !!keyword ? title.toLowerCase().includes(keyword.toLowerCase()) : true
     );
 
-
     if (keyword) {
       this.#cardListWorker.postMessage({ maxItems: 1e5 });
     }

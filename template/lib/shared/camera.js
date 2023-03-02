@@ -12,12 +12,11 @@ export default class Camera {
     const videoConfig = {
       audio: false,
       video: {
-        width: globalThis.screen.availableWidth,
-        height: globalThis.screen.availableHeight,
+        width: globalThis.screen.availWidth,
+        height: globalThis.screen.availHeight,
         frameRate: {
           ideal: 60,
         },
-        facingMode: 'user',
       },
     };
     const stream = await navigator.mediaDevices.getUserMedia(videoConfig);
