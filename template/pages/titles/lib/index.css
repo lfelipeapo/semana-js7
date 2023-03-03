@@ -207,6 +207,7 @@ a {
 /* TOP SECTION */
 .top {
     width: 100%;
+    z-index: 1;
     min-height: 250px;
     display: flex;
     align-items: center;
@@ -628,19 +629,19 @@ a {
     background-color: #616161;
 }
 
-.card:hover .overlay, .card.active .overlay{
-    display: flex;
-    background-image: linear-gradient(to right,
-            rgba(51, 51, 51, 0.95),
-            rgba(255, 255, 255, 0.01));
-}
-
-/* .card .overlay {
+/* .card:hover .overlay, .card.active .overlay{
     display: flex;
     background-image: linear-gradient(to right,
             rgba(51, 51, 51, 0.95),
             rgba(255, 255, 255, 0.01));
 } */
+
+.card .overlay {
+    display: flex;
+    background-image: linear-gradient(to right,
+            rgba(51, 51, 51, 0.95),
+            rgba(255, 255, 255, 0.01));
+}
 
 .overlay p {
     color: #bdbdbd;
@@ -870,6 +871,7 @@ a {
     }
 
     .top svg {
+        z-index: 1;
         width: 20px;
         height: 20px;
         min-width: 20px;
@@ -1185,4 +1187,15 @@ a {
     .socials svg {
         padding: 0px 10px;
     }
+}
+
+#hands {
+    /* faz com que elementos possam ser clicavel */
+    pointer-events: none;
+
+    /* faz ficar em cima dos elementos */
+    position: fixed;
+
+    /* fica à frente dos elementos */
+    z-index: 20;
 }
