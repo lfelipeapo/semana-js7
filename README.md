@@ -28,7 +28,6 @@ Participação à sétima Semana Javascript Expert. Este é o meu código para a
 - [x] - Aula 01 - Diferenciar piscada de olhos entre olho direito e esquerdo e atualizar log para mostrar qual olho que piscou.
 - [x] - Aula 02 - Reconhecer gestos de mãos individuais e printar no log
 - [x] - Aula 03 - A definir
-- [] - Aula 04 - A definir
 
 ### Créditos ao Layout
 - Interface baseada no projeto [Streaming Service](https://codepen.io/Gunnarhawk/pen/vYJEwoM) de [gunnarhawk](https://github.com/Gunnarhawk)
